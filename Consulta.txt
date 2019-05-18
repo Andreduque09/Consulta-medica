@@ -1,0 +1,49 @@
+<html>
+
+<head>
+
+
+<h1><center><title> Formulario consulta Medica </title><center></h1>
+
+<head>
+
+
+
+<body bgcolor="white" text="black" body>
+<br>
+
+
+<center><h2> "buscamos servirle bien para que se sienta mejor" <h2></center>
+<br>
+
+<center>
+
+    <P>
+    <LABEL for="nombre">Ingrese su nombre: </LABEL>
+              <input type="text" id="nombre"><BR>
+<br>
+    <LABEL for="apellido">Ingrese su apellido: </LABEL>
+              <input type="text" id="apellido"><BR>
+<br>
+    <LABEL for="email">Ingrese su correo: </LABEL>
+              <input type="text" id="email"><BR>
+<br>
+    <LABEL for="numero">numero telefonico: </LABEL>
+              <input type="tel" name="telefono"><BR>
+<br>
+<select>
+    <option> Consulta de rutina</option>
+    <option> Emergencia </option>
+    <option> Examenes Medicos </option>
+    <option> Rayos X </option>
+    <option> Ultrasonido </option>
+    <option> resonancia magnetica </option>
+</select>
+<br>
+
+    <INPUT type="radio" name="sexo" value="Varón"> Varón<BR>
+    <INPUT type="radio" name="sexo" value="Mujer"> Mujer<BR>
+    <INPUT type="submit" value="Enviar"> <INPUT type="reset">
+    </P>
+ </FORM>
+</center>
